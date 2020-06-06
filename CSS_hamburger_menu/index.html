@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2f08aff856.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Hamburger Menu</title>
+</head>
+<body>
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggle">
+        <div class="hamburger">
+            <div></div>
+        </div>
+        <nav class="sidebar">
+            <ul class="sidebar-list">
+                <li class="sidebar-item"><a href="#">Home</a></li>
+                <li class="sidebar-item"><a href="#">About us <span><i class="fas fa-angle-down"></i></span></a>
+                    <ul class="submenu">
+                        <li><a href="#">Work time</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Teams</a></li>
+                    </ul>
+                </li>
+                <li class="sidebar-item"><a href="#">News</a></li>
+                <li class="sidebar-item"><a href="#">Planet Earth <span><i class="fas fa-angle-down"></i></span></a>
+                    <ul class="submenu">
+                        <li><a href="#">Continents</a></li>
+                        <li><a href="#">Natural beauties</a></li>
+                        <li><a href="#">7 Wonders of the world</a></li>
+                    </ul>
+                </li>
+                <li class="sidebar-item"><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <header class="background">
+        <div class="container background-inner">
+            <h1>Dare to explore</h1>
+            <p>Beautiful planet Earth</p>
+        </div>
+    </header>
+</body>
+</html>
